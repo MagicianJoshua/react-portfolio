@@ -1,0 +1,19 @@
+nav {
+  margin-left: 600px;
+  border: solid black;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+li {
+  margin: 24px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
