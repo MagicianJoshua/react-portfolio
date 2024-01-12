@@ -5,7 +5,7 @@ import "../styles/ProjectCardBox.css";
 
 function ProjectCardBox() {
   return (
-    <div className="ProjectCardBox">
+    <div className="ProjectCardBox" id="Projects">
       {ProjectInfo.map((project, key) => (
         <ProjectCard
           key={key}

@@ -1,13 +1,14 @@
 .Headpic {
-  width: 200px;
+  width: 400px;
+  border: solid black;
+  border-radius: 15px;
 }
 
 .AboutMeBox {
   margin: 50px;
   display: flex;
   align-items: center;
-  justify-content: center;
-  border: solid black;
+  justify-content: space-evenly;
 }
 
 figure {

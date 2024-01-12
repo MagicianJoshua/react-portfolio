@@ -1,6 +1,7 @@
 import image from "../../public/FourCatering.png";
 import jateimg from "../../public/JATE.png";
 import dailyPlanner from "../../public/daily-planner.png";
+import moodMusic from "../../public/MoodMusic.png";
 
 const ProjectInfo = [
   {
@@ -8,7 +9,7 @@ const ProjectInfo = [
     desc: "A app that gives you a playlist depending on your current weather.",
     link: "https://magicianjoshua.github.io/weatherMusic/",
     gitRepo: "https://github.com/MagicianJoshua/weatherMusic",
-    img: "https://private-user-images.githubusercontent.com/137734906/267797594-7a0375d3-a9de-44e7-9703-876d08ec9e9a.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDUwMjUyNTYsIm5iZiI6MTcwNTAyNDk1NiwicGF0aCI6Ii8xMzc3MzQ5MDYvMjY3Nzk3NTk0LTdhMDM3NWQzLWE5ZGUtNDRlNy05NzAzLTg3NmQwOGVjOWU5YS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMTEyJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDExMlQwMjAyMzZaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1mZTM5NzhjMmE1MzYzZTUwNjliYzUwYzNiOTM1ZTQ4YzM5NTUzNDBjYzMwMzE2MDdiODBkZTg1N2RiMTY4ZjcwJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.7L9MOIIaNKJAoYiGd9icirm-tvjzq8GpH8xYmWH2p_s",
+    img: moodMusic,
     id: 1,
   },
   {
