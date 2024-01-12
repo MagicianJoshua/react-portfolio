@@ -1,5 +1,6 @@
 import ProjectCard from "./ProjectCard";
 import { ProjectInfo } from "../utils/ProjectInfo";
+
 import "../styles/ProjectCardBox.css";
 
 function ProjectCardBox() {
@@ -12,6 +13,7 @@ function ProjectCardBox() {
           description={project.desc}
           webLink={project.link}
           gitRepo={project.gitRepo}
+          img={project.img}
         />
       ))}
     </div>

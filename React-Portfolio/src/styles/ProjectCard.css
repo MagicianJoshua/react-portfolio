@@ -8,11 +8,20 @@
   padding-right: 80px;
   border-radius: 15px;
   border: solid black;
-  background-color: grey;
+  background-color: #4f6eb0;
   margin-bottom: 25px;
   margin-top: 25px;
 }
 
 .ProjectCard * {
   margin-bottom: 25px;
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.ProjectCard img {
+  width: 500px;
+  border: solid black;
+  border-radius: 15px;
+  box-shadow: -8px -8px 5px 0px black;
 }
