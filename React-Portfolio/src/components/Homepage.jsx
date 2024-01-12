@@ -1,8 +1,16 @@
-import portfolioPic from "../assets/img/PlaceHolder.png";
+import AboutMe from "../components/AboutMe";
+import ProjectCardBox from "./ProjectCardBox";
 import "../styles/Homepage.css";
 
 function Homepage() {
-  return <img src={portfolioPic} className="Headpic"></img>;
+  return (
+    <div className="Homepage">
+      <AboutMe />
+      <div className="ProjectContainer">
+        <ProjectCardBox />
+      </div>
+    </div>
+  );
 }
 
 export default Homepage;

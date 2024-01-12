@@ -1,12 +1,14 @@
 .HeaderComponent {
   margin: 0px;
   padding: 10px;
-  background-color: red;
+  background-color: black;
   height: 50px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .HeaderComponent h1 {
   margin: 25px;
+  color: white;
 }
