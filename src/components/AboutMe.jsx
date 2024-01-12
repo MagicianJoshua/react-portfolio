@@ -1,4 +1,4 @@
-import portfolioPic from "../assets/Placeholder.png";
+import portfolioPic from "../../public/PlaceHolder.png";
 import "../styles/AboutMe.css";
 function AboutMe() {
   return (
