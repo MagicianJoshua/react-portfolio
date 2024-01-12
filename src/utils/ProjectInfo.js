@@ -1,6 +1,6 @@
-import image from "../assets/img/FourCatering.png";
-import jateimg from "../assets/img/JATE.png";
-import dailyPlanner from "../assets/img/daily-planner.png";
+import image from "../assets/FourCatering.png";
+import jateimg from "../assets/JATE.png";
+import dailyPlanner from "../assets/daily-planner.png";
 
 const ProjectInfo = [
   {
