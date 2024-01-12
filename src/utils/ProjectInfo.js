@@ -1,4 +1,4 @@
-import image from "../../FourCatering.png";
+import image from "../../public/FourCatering.png";
 import jateimg from "../../public/JATE.png";
 import dailyPlanner from "../../public/daily-planner.png";
 
