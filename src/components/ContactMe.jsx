@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import { useState } from "react";
+import "../styles/ContactMe.css";
 
 export default function ContactMe() {
   const [formData, setFormData] = useState({
@@ -7,23 +8,42 @@ export default function ContactMe() {
     message: "",
   });
 
-  const handleChange = (e) => {
+  const handleChange = (event) => {
     setFormData({
       ...formData,
-      [e.target.name]: e.target.value,
+      [event.target.name]: event.target.value,
     });
   };
 
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    window.alert("Message has been sent, thanks for the email!");
+  };
+
   return (
-    <div>
-      <form>
+    <div className="FormBox" id="ContactMe">
+      <form onSubmit={handleSubmit}>
         <input
           type="text"
           name="name"
-          value={FormData.name}
+          value={formData.name}
           onChange={handleChange}
-          placeholder="Your name"
+          placeholder="Your Name"
         />
+        <input
+          type="email"
+          name="email"
+          value={formData.email}
+          onChange={handleChange}
+          placeholder="Your Email"
+        />
+        <textarea
+          name="message"
+          value={formData.message}
+          onChange={handleChange}
+          placeholder="Your Message"
+        />
+        <button type="submit">Send Message</button>
       </form>
     </div>
   );

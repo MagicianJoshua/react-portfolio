@@ -1,6 +1,7 @@
-import AboutMe from "../components/AboutMe";
+import AboutMe from "./AboutMe";
 import ProjectCardBox from "./ProjectCardBox";
 import "../styles/Homepage.css";
+import ContactMe from "./ContactMe";
 
 function Homepage() {
   return (
@@ -9,6 +10,7 @@ function Homepage() {
       <div className="ProjectContainer">
         <ProjectCardBox />
       </div>
+      <ContactMe />
     </div>
   );
 }

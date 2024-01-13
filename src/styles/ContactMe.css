@@ -1,0 +1,35 @@
+form {
+  background-color: grey;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 500px;
+  border-radius: 10px;
+  padding: 10px;
+  border: solid black;
+}
+
+form input {
+  box-shadow: -3px -3px 5px;
+}
+
+form textarea {
+  box-shadow: -3px -3px 5px;
+  height: 200px;
+}
+
+form button {
+  box-shadow: -3px -3px 5px;
+}
+
+form * {
+  margin: 10px;
+}
+
+.FormBox {
+  display: flex;
+
+  justify-content: center;
+  margin: 50px;
+  /* margin-bottom: 3px; */
+}

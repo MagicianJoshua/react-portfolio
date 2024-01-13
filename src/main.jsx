@@ -4,7 +4,6 @@ import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
 import "./index.css";
 import Homepage from "./components/Homepage.jsx";
-import ContactMe from "./components/ContactMe.jsx";
 
 const router = createBrowserRouter([
   {
@@ -15,10 +14,10 @@ const router = createBrowserRouter([
         index: true,
         element: <Homepage />,
       },
-      {
-        path: "/ContactMe",
-        element: <ContactMe />,
-      },
+      // {
+      //   path: "/ContactMe",
+      //   element: <ContactMe />,
+      // },
     ],
   },
 ]);
