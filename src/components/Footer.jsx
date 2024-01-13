@@ -7,7 +7,9 @@ function Footer() {
       <a href="https://www.linkedin.com/in/joshua-kennedy-dedam-b0a58229b/">
         Linkedin Profile
       </a>
-      <p>Email: joshuajordyn@hotmail.com</p>
+      <a href="https://stackoverflow.com/users/17466649/magicianjoshua">
+        Stack Overflow Profile
+      </a>
     </div>
   );
 }
