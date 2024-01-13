@@ -13,6 +13,10 @@
   height: 700px;
 }
 
+.AboutMeBox p {
+  font-size: 20px;
+}
+
 figure {
   display: flex;
   justify-content: center;
