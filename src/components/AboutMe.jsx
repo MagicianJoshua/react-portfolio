@@ -8,8 +8,9 @@ function AboutMe() {
         <figcaption>Joshua Kennedy-Dedam</figcaption>
       </figure>
       <p>
-        Soon to be UNB Fullstack graduate with a passion for frontend! This
-        portfolio is still in development.
+        Soon to be UNB Fullstack graduate with a passion for frontend! {<br />}I
+        have a passion for learning and applying new concepts each and every
+        day,{<br />} if I am not learning, then I am not growing!
       </p>
     </div>
   );
